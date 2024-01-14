@@ -1,0 +1,198 @@
+CREATE DATABASE dbazaccesorios
+USE [dbazaccesorios]
+GO
+/****** Object:  Table [dbo].[Boleta]    Script Date: 19/11/2023 18:00:22 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Boleta](
+	[id_boleta] [int] IDENTITY(1,1) NOT NULL,
+	[numero_boleta] [nvarchar](50) NOT NULL,
+	[fecha] [int] NOT NULL,
+	[Clientes_id_cliente] [int] NOT NULL,
+ CONSTRAINT [Boleta_pk] PRIMARY KEY CLUSTERED 
+(
+	[id_boleta] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[Clientes]    Script Date: 19/11/2023 18:00:22 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Clientes](
+	[id_cliente] [int] IDENTITY(1,1) NOT NULL,
+	[dni_cliente] [int] NOT NULL,
+	[nombre_cliente] [nvarchar](50) NOT NULL,
+	[telefono] [nvarchar](50) NOT NULL,
+	[direccion] [nvarchar](50) NOT NULL,
+	[Empleados_id_empleados] [int] NOT NULL,
+ CONSTRAINT [Clientes_pk] PRIMARY KEY CLUSTERED 
+(
+	[id_cliente] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[DetallesxBoleta]    Script Date: 19/11/2023 18:00:22 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[DetallesxBoleta](
+	[Boleta_id_boleta] [int] NOT NULL,
+	[Productos_id_producto] [int] NOT NULL,
+	[cantidad_producto_boleta] [int] NOT NULL,
+	[precio_unitario] [float] NOT NULL,
+	[importe_producto_boleta] [int] NOT NULL,
+	[monto_total] [float] NOT NULL,
+ CONSTRAINT [DetallesxBoleta_pk] PRIMARY KEY CLUSTERED 
+(
+	[Boleta_id_boleta] ASC,
+	[Productos_id_producto] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[DetallesxFactura]    Script Date: 19/11/2023 18:00:22 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[DetallesxFactura](
+	[Productos_id_producto] [int] NOT NULL,
+	[Factura_id_factura] [int] NOT NULL,
+	[cantidad_producto_factura] [int] NOT NULL,
+	[importe_producto_factura] [int] NOT NULL,
+	[precio_unitario] [float] NOT NULL,
+	[monto_total] [float] NOT NULL,
+ CONSTRAINT [DetallesxFactura_pk] PRIMARY KEY CLUSTERED 
+(
+	[Productos_id_producto] ASC,
+	[Factura_id_factura] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[Empleados]    Script Date: 19/11/2023 18:00:22 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Empleados](
+	[id_empleados] [int] IDENTITY(1,1) NOT NULL,
+	[nombre_empleado] [nvarchar](50) NOT NULL,
+	[dni_empleado] [int] NOT NULL,
+	[cargo] [nvarchar](50) NOT NULL,
+ CONSTRAINT [Empleados_pk] PRIMARY KEY CLUSTERED 
+(
+	[id_empleados] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[Factura]    Script Date: 19/11/2023 18:00:22 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Factura](
+	[id_factura] [int] IDENTITY(1,1) NOT NULL,
+	[numero_factura] [nvarchar](50) NOT NULL,
+	[fecha] [int] NOT NULL,
+	[Proveedores_id_proveedor] [int] NOT NULL,
+ CONSTRAINT [Factura_pk] PRIMARY KEY CLUSTERED 
+(
+	[id_factura] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[Productos]    Script Date: 19/11/2023 18:00:22 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Productos](
+	[id_producto] [int] IDENTITY(1,1) NOT NULL,
+	[codigo_producto] [int] NOT NULL,
+	[nombre_producto] [nvarchar](50) NOT NULL,
+	[precio] [float] NOT NULL,
+	[Proveedores_id_proveedor] [int] NOT NULL,
+	[Empleados_id_empleados] [int] NOT NULL,
+ CONSTRAINT [Productos_pk] PRIMARY KEY CLUSTERED 
+(
+	[id_producto] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[Proveedores]    Script Date: 19/11/2023 18:00:22 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Proveedores](
+	[id_proveedor] [int] IDENTITY(1,1) NOT NULL,
+	[nombre_proveedor] [nvarchar](50) NOT NULL,
+	[productos_vender] [nvarchar](50) NOT NULL,
+	[direccion_proveedor] [nvarchar](50) NOT NULL,
+	[telefono_proveedor] [int] NOT NULL,
+	[ruc_proveedor] [int] NOT NULL,
+	[Empleados_id_empleados] [int] NOT NULL,
+ CONSTRAINT [Proveedores_pk] PRIMARY KEY CLUSTERED 
+(
+	[id_proveedor] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+ALTER TABLE [dbo].[Boleta]  WITH CHECK ADD  CONSTRAINT [Boleta_Clientes] FOREIGN KEY([Clientes_id_cliente])
+REFERENCES [dbo].[Clientes] ([id_cliente])
+GO
+ALTER TABLE [dbo].[Boleta] CHECK CONSTRAINT [Boleta_Clientes]
+GO
+ALTER TABLE [dbo].[Clientes]  WITH CHECK ADD  CONSTRAINT [Clientes_Empleados] FOREIGN KEY([Empleados_id_empleados])
+REFERENCES [dbo].[Empleados] ([id_empleados])
+GO
+ALTER TABLE [dbo].[Clientes] CHECK CONSTRAINT [Clientes_Empleados]
+GO
+ALTER TABLE [dbo].[DetallesxBoleta]  WITH CHECK ADD  CONSTRAINT [Detalles_Boleta_Boleta] FOREIGN KEY([Boleta_id_boleta])
+REFERENCES [dbo].[Boleta] ([id_boleta])
+GO
+ALTER TABLE [dbo].[DetallesxBoleta] CHECK CONSTRAINT [Detalles_Boleta_Boleta]
+GO
+ALTER TABLE [dbo].[DetallesxBoleta]  WITH CHECK ADD  CONSTRAINT [Detalles_Boleta_Productos] FOREIGN KEY([Productos_id_producto])
+REFERENCES [dbo].[Productos] ([id_producto])
+GO
+ALTER TABLE [dbo].[DetallesxBoleta] CHECK CONSTRAINT [Detalles_Boleta_Productos]
+GO
+ALTER TABLE [dbo].[DetallesxFactura]  WITH CHECK ADD  CONSTRAINT [Detalle_Factura_Factura] FOREIGN KEY([Factura_id_factura])
+REFERENCES [dbo].[Factura] ([id_factura])
+GO
+ALTER TABLE [dbo].[DetallesxFactura] CHECK CONSTRAINT [Detalle_Factura_Factura]
+GO
+ALTER TABLE [dbo].[DetallesxFactura]  WITH CHECK ADD  CONSTRAINT [Detalle_Factura_Productos] FOREIGN KEY([Productos_id_producto])
+REFERENCES [dbo].[Productos] ([id_producto])
+GO
+ALTER TABLE [dbo].[DetallesxFactura] CHECK CONSTRAINT [Detalle_Factura_Productos]
+GO
+ALTER TABLE [dbo].[Factura]  WITH CHECK ADD  CONSTRAINT [Factura_Proveedores] FOREIGN KEY([Proveedores_id_proveedor])
+REFERENCES [dbo].[Proveedores] ([id_proveedor])
+GO
+ALTER TABLE [dbo].[Factura] CHECK CONSTRAINT [Factura_Proveedores]
+GO
+ALTER TABLE [dbo].[Productos]  WITH CHECK ADD  CONSTRAINT [Productos_Empleados] FOREIGN KEY([Empleados_id_empleados])
+REFERENCES [dbo].[Empleados] ([id_empleados])
+GO
+ALTER TABLE [dbo].[Productos] CHECK CONSTRAINT [Productos_Empleados]
+GO
+ALTER TABLE [dbo].[Productos]  WITH CHECK ADD  CONSTRAINT [Productos_Proveedores] FOREIGN KEY([Proveedores_id_proveedor])
+REFERENCES [dbo].[Proveedores] ([id_proveedor])
+GO
+ALTER TABLE [dbo].[Productos] CHECK CONSTRAINT [Productos_Proveedores]
+GO
+ALTER TABLE [dbo].[Proveedores]  WITH CHECK ADD  CONSTRAINT [Proveedores_Empleados] FOREIGN KEY([Empleados_id_empleados])
+REFERENCES [dbo].[Empleados] ([id_empleados])
+GO
+ALTER TABLE [dbo].[Proveedores] CHECK CONSTRAINT [Proveedores_Empleados]
+GO
+USE [master]
+GO
+ALTER DATABASE [dbazaccesorios] SET  READ_WRITE 
+GO

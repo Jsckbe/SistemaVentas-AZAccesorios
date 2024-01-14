@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ModelEF" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Boleta">
+    <Key>
+      <PropertyRef Name="id_boleta" />
+    </Key>
+    <Property Name="id_boleta" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="numero_boleta" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="fecha" Type="Int32" Nullable="false" />
+    <Property Name="Clientes_id_cliente" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Clientes" Relationship="Self.Boleta_Clientes" FromRole="Boleta" ToRole="Clientes" />
+    <NavigationProperty Name="DetallesxBoleta" Relationship="Self.Detalles_Boleta_Boleta" FromRole="Boleta" ToRole="DetallesxBoleta" />
+  </EntityType>
+  <EntityType Name="Clientes">
+    <Key>
+      <PropertyRef Name="id_cliente" />
+    </Key>
+    <Property Name="id_cliente" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="dni_cliente" Type="Int32" Nullable="false" />
+    <Property Name="nombre_cliente" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="telefono" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="direccion" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Empleados_id_empleados" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Boleta" Relationship="Self.Boleta_Clientes" FromRole="Clientes" ToRole="Boleta" />
+    <NavigationProperty Name="Empleados" Relationship="Self.Clientes_Empleados" FromRole="Clientes" ToRole="Empleados" />
+  </EntityType>
+  <EntityType Name="DetallesxBoleta">
+    <Key>
+      <PropertyRef Name="Boleta_id_boleta" />
+      <PropertyRef Name="Productos_id_producto" />
+    </Key>
+    <Property Name="Boleta_id_boleta" Type="Int32" Nullable="false" />
+    <Property Name="Productos_id_producto" Type="Int32" Nullable="false" />
+    <Property Name="cantidad_producto_boleta" Type="Int32" Nullable="false" />
+    <Property Name="precio_unitario" Type="Double" Nullable="false" />
+    <Property Name="importe_producto_boleta" Type="Int32" Nullable="false" />
+    <Property Name="monto_total" Type="Double" Nullable="false" />
+    <NavigationProperty Name="Boleta" Relationship="Self.Detalles_Boleta_Boleta" FromRole="DetallesxBoleta" ToRole="Boleta" />
+    <NavigationProperty Name="Productos" Relationship="Self.Detalles_Boleta_Productos" FromRole="DetallesxBoleta" ToRole="Productos" />
+  </EntityType>
+  <EntityType Name="DetallesxFactura">
+    <Key>
+      <PropertyRef Name="Productos_id_producto" />
+      <PropertyRef Name="Factura_id_factura" />
+    </Key>
+    <Property Name="Productos_id_producto" Type="Int32" Nullable="false" />
+    <Property Name="Factura_id_factura" Type="Int32" Nullable="false" />
+    <Property Name="cantidad_producto_factura" Type="Int32" Nullable="false" />
+    <Property Name="importe_producto_factura" Type="Int32" Nullable="false" />
+    <Property Name="precio_unitario" Type="Double" Nullable="false" />
+    <Property Name="monto_total" Type="Double" Nullable="false" />
+    <NavigationProperty Name="Factura" Relationship="Self.Detalle_Factura_Factura" FromRole="DetallesxFactura" ToRole="Factura" />
+    <NavigationProperty Name="Productos" Relationship="Self.Detalle_Factura_Productos" FromRole="DetallesxFactura" ToRole="Productos" />
+  </EntityType>
+  <EntityType Name="Empleados">
+    <Key>
+      <PropertyRef Name="id_empleados" />
+    </Key>
+    <Property Name="id_empleados" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nombre_empleado" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="dni_empleado" Type="Int32" Nullable="false" />
+    <Property Name="cargo" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Clientes" Relationship="Self.Clientes_Empleados" FromRole="Empleados" ToRole="Clientes" />
+    <NavigationProperty Name="Productos" Relationship="Self.Productos_Empleados" FromRole="Empleados" ToRole="Productos" />
+    <NavigationProperty Name="Proveedores" Relationship="Self.Proveedores_Empleados" FromRole="Empleados" ToRole="Proveedores" />
+  </EntityType>
+  <EntityType Name="Factura">
+    <Key>
+      <PropertyRef Name="id_factura" />
+    </Key>
+    <Property Name="id_factura" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="numero_factura" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="fecha" Type="Int32" Nullable="false" />
+    <Property Name="Proveedores_id_proveedor" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="DetallesxFactura" Relationship="Self.Detalle_Factura_Factura" FromRole="Factura" ToRole="DetallesxFactura" />
+    <NavigationProperty Name="Proveedores" Relationship="Self.Factura_Proveedores" FromRole="Factura" ToRole="Proveedores" />
+  </EntityType>
+  <EntityType Name="Productos">
+    <Key>
+      <PropertyRef Name="id_producto" />
+    </Key>
+    <Property Name="id_producto" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="codigo_producto" Type="Int32" Nullable="false" />
+    <Property Name="nombre_producto" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="precio" Type="Double" Nullable="false" />
+    <Property Name="Proveedores_id_proveedor" Type="Int32" Nullable="false" />
+    <Property Name="Empleados_id_empleados" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="DetallesxBoleta" Relationship="Self.Detalles_Boleta_Productos" FromRole="Productos" ToRole="DetallesxBoleta" />
+    <NavigationProperty Name="DetallesxFactura" Relationship="Self.Detalle_Factura_Productos" FromRole="Productos" ToRole="DetallesxFactura" />
+    <NavigationProperty Name="Empleados" Relationship="Self.Productos_Empleados" FromRole="Productos" ToRole="Empleados" />
+    <NavigationProperty Name="Proveedores" Relationship="Self.Productos_Proveedores" FromRole="Productos" ToRole="Proveedores" />
+  </EntityType>
+  <EntityType Name="Proveedores">
+    <Key>
+      <PropertyRef Name="id_proveedor" />
+    </Key>
+    <Property Name="id_proveedor" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nombre_proveedor" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="productos_vender" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="direccion_proveedor" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="telefono_proveedor" Type="Int32" Nullable="false" />
+    <Property Name="ruc_proveedor" Type="Int32" Nullable="false" />
+    <Property Name="Empleados_id_empleados" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Empleados" Relationship="Self.Proveedores_Empleados" FromRole="Proveedores" ToRole="Empleados" />
+    <NavigationProperty Name="Factura" Relationship="Self.Factura_Proveedores" FromRole="Proveedores" ToRole="Factura" />
+    <NavigationProperty Name="Productos" Relationship="Self.Productos_Proveedores" FromRole="Proveedores" ToRole="Productos" />
+  </EntityType>
+  <Association Name="Boleta_Clientes">
+    <End Role="Clientes" Type="Self.Clientes" Multiplicity="1" />
+    <End Role="Boleta" Type="Self.Boleta" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Clientes">
+        <PropertyRef Name="id_cliente" />
+      </Principal>
+      <Dependent Role="Boleta">
+        <PropertyRef Name="Clientes_id_cliente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Detalles_Boleta_Boleta">
+    <End Role="Boleta" Type="Self.Boleta" Multiplicity="1" />
+    <End Role="DetallesxBoleta" Type="Self.DetallesxBoleta" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Boleta">
+        <PropertyRef Name="id_boleta" />
+      </Principal>
+      <Dependent Role="DetallesxBoleta">
+        <PropertyRef Name="Boleta_id_boleta" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Clientes_Empleados">
+    <End Role="Empleados" Type="Self.Empleados" Multiplicity="1" />
+    <End Role="Clientes" Type="Self.Clientes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Empleados">
+        <PropertyRef Name="id_empleados" />
+      </Principal>
+      <Dependent Role="Clientes">
+        <PropertyRef Name="Empleados_id_empleados" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Detalles_Boleta_Productos">
+    <End Role="Productos" Type="Self.Productos" Multiplicity="1" />
+    <End Role="DetallesxBoleta" Type="Self.DetallesxBoleta" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Productos">
+        <PropertyRef Name="id_producto" />
+      </Principal>
+      <Dependent Role="DetallesxBoleta">
+        <PropertyRef Name="Productos_id_producto" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Detalle_Factura_Factura">
+    <End Role="Factura" Type="Self.Factura" Multiplicity="1" />
+    <End Role="DetallesxFactura" Type="Self.DetallesxFactura" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Factura">
+        <PropertyRef Name="id_factura" />
+      </Principal>
+      <Dependent Role="DetallesxFactura">
+        <PropertyRef Name="Factura_id_factura" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Detalle_Factura_Productos">
+    <End Role="Productos" Type="Self.Productos" Multiplicity="1" />
+    <End Role="DetallesxFactura" Type="Self.DetallesxFactura" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Productos">
+        <PropertyRef Name="id_producto" />
+      </Principal>
+      <Dependent Role="DetallesxFactura">
+        <PropertyRef Name="Productos_id_producto" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Productos_Empleados">
+    <End Role="Empleados" Type="Self.Empleados" Multiplicity="1" />
+    <End Role="Productos" Type="Self.Productos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Empleados">
+        <PropertyRef Name="id_empleados" />
+      </Principal>
+      <Dependent Role="Productos">
+        <PropertyRef Name="Empleados_id_empleados" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Proveedores_Empleados">
+    <End Role="Empleados" Type="Self.Empleados" Multiplicity="1" />
+    <End Role="Proveedores" Type="Self.Proveedores" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Empleados">
+        <PropertyRef Name="id_empleados" />
+      </Principal>
+      <Dependent Role="Proveedores">
+        <PropertyRef Name="Empleados_id_empleados" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Factura_Proveedores">
+    <End Role="Proveedores" Type="Self.Proveedores" Multiplicity="1" />
+    <End Role="Factura" Type="Self.Factura" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Proveedores">
+        <PropertyRef Name="id_proveedor" />
+      </Principal>
+      <Dependent Role="Factura">
+        <PropertyRef Name="Proveedores_id_proveedor" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Productos_Proveedores">
+    <End Role="Proveedores" Type="Self.Proveedores" Multiplicity="1" />
+    <End Role="Productos" Type="Self.Productos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Proveedores">
+        <PropertyRef Name="id_proveedor" />
+      </Principal>
+      <Dependent Role="Productos">
+        <PropertyRef Name="Proveedores_id_proveedor" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="BDEFEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Boleta" EntityType="Self.Boleta" />
+    <EntitySet Name="Clientes" EntityType="Self.Clientes" />
+    <EntitySet Name="DetallesxBoleta" EntityType="Self.DetallesxBoleta" />
+    <EntitySet Name="DetallesxFactura" EntityType="Self.DetallesxFactura" />
+    <EntitySet Name="Empleados" EntityType="Self.Empleados" />
+    <EntitySet Name="Factura" EntityType="Self.Factura" />
+    <EntitySet Name="Productos" EntityType="Self.Productos" />
+    <EntitySet Name="Proveedores" EntityType="Self.Proveedores" />
+    <AssociationSet Name="Boleta_Clientes" Association="Self.Boleta_Clientes">
+      <End Role="Clientes" EntitySet="Clientes" />
+      <End Role="Boleta" EntitySet="Boleta" />
+    </AssociationSet>
+    <AssociationSet Name="Detalles_Boleta_Boleta" Association="Self.Detalles_Boleta_Boleta">
+      <End Role="Boleta" EntitySet="Boleta" />
+      <End Role="DetallesxBoleta" EntitySet="DetallesxBoleta" />
+    </AssociationSet>
+    <AssociationSet Name="Clientes_Empleados" Association="Self.Clientes_Empleados">
+      <End Role="Empleados" EntitySet="Empleados" />
+      <End Role="Clientes" EntitySet="Clientes" />
+    </AssociationSet>
+    <AssociationSet Name="Detalles_Boleta_Productos" Association="Self.Detalles_Boleta_Productos">
+      <End Role="Productos" EntitySet="Productos" />
+      <End Role="DetallesxBoleta" EntitySet="DetallesxBoleta" />
+    </AssociationSet>
+    <AssociationSet Name="Detalle_Factura_Factura" Association="Self.Detalle_Factura_Factura">
+      <End Role="Factura" EntitySet="Factura" />
+      <End Role="DetallesxFactura" EntitySet="DetallesxFactura" />
+    </AssociationSet>
+    <AssociationSet Name="Detalle_Factura_Productos" Association="Self.Detalle_Factura_Productos">
+      <End Role="Productos" EntitySet="Productos" />
+      <End Role="DetallesxFactura" EntitySet="DetallesxFactura" />
+    </AssociationSet>
+    <AssociationSet Name="Productos_Empleados" Association="Self.Productos_Empleados">
+      <End Role="Empleados" EntitySet="Empleados" />
+      <End Role="Productos" EntitySet="Productos" />
+    </AssociationSet>
+    <AssociationSet Name="Proveedores_Empleados" Association="Self.Proveedores_Empleados">
+      <End Role="Empleados" EntitySet="Empleados" />
+      <End Role="Proveedores" EntitySet="Proveedores" />
+    </AssociationSet>
+    <AssociationSet Name="Factura_Proveedores" Association="Self.Factura_Proveedores">
+      <End Role="Proveedores" EntitySet="Proveedores" />
+      <End Role="Factura" EntitySet="Factura" />
+    </AssociationSet>
+    <AssociationSet Name="Productos_Proveedores" Association="Self.Productos_Proveedores">
+      <End Role="Proveedores" EntitySet="Proveedores" />
+      <End Role="Productos" EntitySet="Productos" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

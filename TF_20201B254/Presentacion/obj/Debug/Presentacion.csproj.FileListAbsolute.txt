@@ -1,0 +1,124 @@
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_azaccesorios\Presentacion\obj\Debug\Presentacion.csproj.AssemblyReference.cache
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_azaccesorios\Presentacion\obj\Debug\BoletaWindow.g.cs
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_azaccesorios\Presentacion\obj\Debug\ClienteWindow.g.cs
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_azaccesorios\Presentacion\obj\Debug\DetallexBoletaWindow.g.cs
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_azaccesorios\Presentacion\obj\Debug\DetallexFacturaWindow.g.cs
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_azaccesorios\Presentacion\obj\Debug\EmpleadoWindow.g.cs
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_azaccesorios\Presentacion\obj\Debug\FacturaWindow.g.cs
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_azaccesorios\Presentacion\obj\Debug\MainWindow.g.cs
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_azaccesorios\Presentacion\obj\Debug\ProductoWindow.g.cs
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_azaccesorios\Presentacion\obj\Debug\ProveedorWindow.g.cs
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_azaccesorios\Presentacion\obj\Debug\App.g.cs
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_azaccesorios\Presentacion\obj\Debug\Presentacion_MarkupCompile.cache
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_azaccesorios\Presentacion\obj\Debug\Presentacion_MarkupCompile.lref
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_azaccesorios\Presentacion\bin\Debug\Presentacion.exe.config
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_azaccesorios\Presentacion\bin\Debug\Presentacion.exe
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_azaccesorios\Presentacion\bin\Debug\Presentacion.pdb
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_azaccesorios\Presentacion\bin\Debug\Datos.dll
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_azaccesorios\Presentacion\bin\Debug\EntityFramework.dll
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_azaccesorios\Presentacion\bin\Debug\EntityFramework.SqlServer.dll
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_azaccesorios\Presentacion\bin\Debug\Negocios.dll
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_azaccesorios\Presentacion\bin\Debug\Datos.pdb
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_azaccesorios\Presentacion\bin\Debug\Datos.dll.config
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_azaccesorios\Presentacion\bin\Debug\Negocios.pdb
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_azaccesorios\Presentacion\bin\Debug\EntityFramework.xml
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_azaccesorios\Presentacion\bin\Debug\EntityFramework.SqlServer.xml
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_azaccesorios\Presentacion\obj\Debug\BoletaWindow.baml
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_azaccesorios\Presentacion\obj\Debug\ClienteWindow.baml
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_azaccesorios\Presentacion\obj\Debug\DetallexBoletaWindow.baml
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_azaccesorios\Presentacion\obj\Debug\DetallexFacturaWindow.baml
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_azaccesorios\Presentacion\obj\Debug\EmpleadoWindow.baml
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_azaccesorios\Presentacion\obj\Debug\FacturaWindow.baml
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_azaccesorios\Presentacion\obj\Debug\MainWindow.baml
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_azaccesorios\Presentacion\obj\Debug\ProductoWindow.baml
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_azaccesorios\Presentacion\obj\Debug\ProveedorWindow.baml
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_azaccesorios\Presentacion\obj\Debug\Presentacion.g.resources
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_azaccesorios\Presentacion\obj\Debug\Presentacion.Properties.Resources.resources
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_azaccesorios\Presentacion\obj\Debug\Presentacion.csproj.GenerateResource.cache
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_azaccesorios\Presentacion\obj\Debug\Presentacion.csproj.CoreCompileInputs.cache
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_azaccesorios\Presentacion\obj\Debug\Presentacion.csproj.CopyComplete
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_azaccesorios\Presentacion\obj\Debug\Presentacion.exe
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_azaccesorios\Presentacion\obj\Debug\Presentacion.pdb
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_202114246\Presentacion\bin\Debug\Presentacion.exe.config
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_202114246\Presentacion\bin\Debug\Presentacion.exe
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_202114246\Presentacion\bin\Debug\Presentacion.pdb
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_202114246\Presentacion\bin\Debug\Datos.dll
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_202114246\Presentacion\bin\Debug\EntityFramework.dll
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_202114246\Presentacion\bin\Debug\EntityFramework.SqlServer.dll
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_202114246\Presentacion\bin\Debug\Negocios.dll
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_202114246\Presentacion\bin\Debug\Datos.pdb
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_202114246\Presentacion\bin\Debug\Datos.dll.config
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_202114246\Presentacion\bin\Debug\Negocios.pdb
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_202114246\Presentacion\bin\Debug\EntityFramework.xml
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_202114246\Presentacion\bin\Debug\EntityFramework.SqlServer.xml
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_202114246\Presentacion\obj\Debug\Presentacion.csproj.AssemblyReference.cache
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_202114246\Presentacion\obj\Debug\BoletaWindow.g.cs
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_202114246\Presentacion\obj\Debug\ClienteWindow.g.cs
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_202114246\Presentacion\obj\Debug\DetallexBoletaWindow.g.cs
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_202114246\Presentacion\obj\Debug\DetallexFacturaWindow.g.cs
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_202114246\Presentacion\obj\Debug\EmpleadoWindow.g.cs
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_202114246\Presentacion\obj\Debug\FacturaWindow.g.cs
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_202114246\Presentacion\obj\Debug\MainWindow.g.cs
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_202114246\Presentacion\obj\Debug\ProductoWindow.g.cs
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_202114246\Presentacion\obj\Debug\ProveedorWindow.g.cs
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_202114246\Presentacion\obj\Debug\App.g.cs
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_202114246\Presentacion\obj\Debug\Presentacion_MarkupCompile.cache
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_202114246\Presentacion\obj\Debug\Presentacion_MarkupCompile.lref
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_202114246\Presentacion\obj\Debug\BoletaWindow.baml
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_202114246\Presentacion\obj\Debug\ClienteWindow.baml
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_202114246\Presentacion\obj\Debug\DetallexBoletaWindow.baml
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_202114246\Presentacion\obj\Debug\DetallexFacturaWindow.baml
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_202114246\Presentacion\obj\Debug\EmpleadoWindow.baml
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_202114246\Presentacion\obj\Debug\FacturaWindow.baml
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_202114246\Presentacion\obj\Debug\MainWindow.baml
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_202114246\Presentacion\obj\Debug\ProductoWindow.baml
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_202114246\Presentacion\obj\Debug\ProveedorWindow.baml
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_202114246\Presentacion\obj\Debug\Presentacion.g.resources
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_202114246\Presentacion\obj\Debug\Presentacion.Properties.Resources.resources
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_202114246\Presentacion\obj\Debug\Presentacion.csproj.GenerateResource.cache
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_202114246\Presentacion\obj\Debug\Presentacion.csproj.CoreCompileInputs.cache
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_202114246\Presentacion\obj\Debug\Presentacion.csproj.CopyComplete
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_202114246\Presentacion\obj\Debug\Presentacion.exe
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_202114246\Presentacion\obj\Debug\Presentacion.pdb
+D:\Escritorio\CICLOS\6TO CICLO\CURSOS\FundaDeSistemas\TF_20201B254\TF_20201B254\Presentacion\bin\Debug\Presentacion.exe.config
+D:\Escritorio\CICLOS\6TO CICLO\CURSOS\FundaDeSistemas\TF_20201B254\TF_20201B254\Presentacion\bin\Debug\Presentacion.exe
+D:\Escritorio\CICLOS\6TO CICLO\CURSOS\FundaDeSistemas\TF_20201B254\TF_20201B254\Presentacion\bin\Debug\Presentacion.pdb
+D:\Escritorio\CICLOS\6TO CICLO\CURSOS\FundaDeSistemas\TF_20201B254\TF_20201B254\Presentacion\bin\Debug\Datos.dll
+D:\Escritorio\CICLOS\6TO CICLO\CURSOS\FundaDeSistemas\TF_20201B254\TF_20201B254\Presentacion\bin\Debug\EntityFramework.dll
+D:\Escritorio\CICLOS\6TO CICLO\CURSOS\FundaDeSistemas\TF_20201B254\TF_20201B254\Presentacion\bin\Debug\EntityFramework.SqlServer.dll
+D:\Escritorio\CICLOS\6TO CICLO\CURSOS\FundaDeSistemas\TF_20201B254\TF_20201B254\Presentacion\bin\Debug\Negocios.dll
+D:\Escritorio\CICLOS\6TO CICLO\CURSOS\FundaDeSistemas\TF_20201B254\TF_20201B254\Presentacion\bin\Debug\Datos.pdb
+D:\Escritorio\CICLOS\6TO CICLO\CURSOS\FundaDeSistemas\TF_20201B254\TF_20201B254\Presentacion\bin\Debug\Datos.dll.config
+D:\Escritorio\CICLOS\6TO CICLO\CURSOS\FundaDeSistemas\TF_20201B254\TF_20201B254\Presentacion\bin\Debug\Negocios.pdb
+D:\Escritorio\CICLOS\6TO CICLO\CURSOS\FundaDeSistemas\TF_20201B254\TF_20201B254\Presentacion\bin\Debug\EntityFramework.xml
+D:\Escritorio\CICLOS\6TO CICLO\CURSOS\FundaDeSistemas\TF_20201B254\TF_20201B254\Presentacion\bin\Debug\EntityFramework.SqlServer.xml
+D:\Escritorio\CICLOS\6TO CICLO\CURSOS\FundaDeSistemas\TF_20201B254\TF_20201B254\Presentacion\obj\Debug\Presentacion.csproj.AssemblyReference.cache
+D:\Escritorio\CICLOS\6TO CICLO\CURSOS\FundaDeSistemas\TF_20201B254\TF_20201B254\Presentacion\obj\Debug\Presentacion.csproj.SuggestedBindingRedirects.cache
+D:\Escritorio\CICLOS\6TO CICLO\CURSOS\FundaDeSistemas\TF_20201B254\TF_20201B254\Presentacion\obj\Debug\BoletaWindow.g.cs
+D:\Escritorio\CICLOS\6TO CICLO\CURSOS\FundaDeSistemas\TF_20201B254\TF_20201B254\Presentacion\obj\Debug\ClienteWindow.g.cs
+D:\Escritorio\CICLOS\6TO CICLO\CURSOS\FundaDeSistemas\TF_20201B254\TF_20201B254\Presentacion\obj\Debug\DetallexBoletaWindow.g.cs
+D:\Escritorio\CICLOS\6TO CICLO\CURSOS\FundaDeSistemas\TF_20201B254\TF_20201B254\Presentacion\obj\Debug\DetallexFacturaWindow.g.cs
+D:\Escritorio\CICLOS\6TO CICLO\CURSOS\FundaDeSistemas\TF_20201B254\TF_20201B254\Presentacion\obj\Debug\EmpleadoWindow.g.cs
+D:\Escritorio\CICLOS\6TO CICLO\CURSOS\FundaDeSistemas\TF_20201B254\TF_20201B254\Presentacion\obj\Debug\FacturaWindow.g.cs
+D:\Escritorio\CICLOS\6TO CICLO\CURSOS\FundaDeSistemas\TF_20201B254\TF_20201B254\Presentacion\obj\Debug\MainWindow.g.cs
+D:\Escritorio\CICLOS\6TO CICLO\CURSOS\FundaDeSistemas\TF_20201B254\TF_20201B254\Presentacion\obj\Debug\ProductoWindow.g.cs
+D:\Escritorio\CICLOS\6TO CICLO\CURSOS\FundaDeSistemas\TF_20201B254\TF_20201B254\Presentacion\obj\Debug\ProveedorWindow.g.cs
+D:\Escritorio\CICLOS\6TO CICLO\CURSOS\FundaDeSistemas\TF_20201B254\TF_20201B254\Presentacion\obj\Debug\App.g.cs
+D:\Escritorio\CICLOS\6TO CICLO\CURSOS\FundaDeSistemas\TF_20201B254\TF_20201B254\Presentacion\obj\Debug\Presentacion_MarkupCompile.cache
+D:\Escritorio\CICLOS\6TO CICLO\CURSOS\FundaDeSistemas\TF_20201B254\TF_20201B254\Presentacion\obj\Debug\Presentacion_MarkupCompile.lref
+D:\Escritorio\CICLOS\6TO CICLO\CURSOS\FundaDeSistemas\TF_20201B254\TF_20201B254\Presentacion\obj\Debug\BoletaWindow.baml
+D:\Escritorio\CICLOS\6TO CICLO\CURSOS\FundaDeSistemas\TF_20201B254\TF_20201B254\Presentacion\obj\Debug\ClienteWindow.baml
+D:\Escritorio\CICLOS\6TO CICLO\CURSOS\FundaDeSistemas\TF_20201B254\TF_20201B254\Presentacion\obj\Debug\DetallexBoletaWindow.baml
+D:\Escritorio\CICLOS\6TO CICLO\CURSOS\FundaDeSistemas\TF_20201B254\TF_20201B254\Presentacion\obj\Debug\DetallexFacturaWindow.baml
+D:\Escritorio\CICLOS\6TO CICLO\CURSOS\FundaDeSistemas\TF_20201B254\TF_20201B254\Presentacion\obj\Debug\EmpleadoWindow.baml
+D:\Escritorio\CICLOS\6TO CICLO\CURSOS\FundaDeSistemas\TF_20201B254\TF_20201B254\Presentacion\obj\Debug\FacturaWindow.baml
+D:\Escritorio\CICLOS\6TO CICLO\CURSOS\FundaDeSistemas\TF_20201B254\TF_20201B254\Presentacion\obj\Debug\MainWindow.baml
+D:\Escritorio\CICLOS\6TO CICLO\CURSOS\FundaDeSistemas\TF_20201B254\TF_20201B254\Presentacion\obj\Debug\ProductoWindow.baml
+D:\Escritorio\CICLOS\6TO CICLO\CURSOS\FundaDeSistemas\TF_20201B254\TF_20201B254\Presentacion\obj\Debug\ProveedorWindow.baml
+D:\Escritorio\CICLOS\6TO CICLO\CURSOS\FundaDeSistemas\TF_20201B254\TF_20201B254\Presentacion\obj\Debug\Presentacion.g.resources
+D:\Escritorio\CICLOS\6TO CICLO\CURSOS\FundaDeSistemas\TF_20201B254\TF_20201B254\Presentacion\obj\Debug\Presentacion.Properties.Resources.resources
+D:\Escritorio\CICLOS\6TO CICLO\CURSOS\FundaDeSistemas\TF_20201B254\TF_20201B254\Presentacion\obj\Debug\Presentacion.csproj.GenerateResource.cache
+D:\Escritorio\CICLOS\6TO CICLO\CURSOS\FundaDeSistemas\TF_20201B254\TF_20201B254\Presentacion\obj\Debug\Presentacion.csproj.CoreCompileInputs.cache
+D:\Escritorio\CICLOS\6TO CICLO\CURSOS\FundaDeSistemas\TF_20201B254\TF_20201B254\Presentacion\obj\Debug\Presentacion.csproj.CopyComplete
+D:\Escritorio\CICLOS\6TO CICLO\CURSOS\FundaDeSistemas\TF_20201B254\TF_20201B254\Presentacion\obj\Debug\Presentacion.exe
+D:\Escritorio\CICLOS\6TO CICLO\CURSOS\FundaDeSistemas\TF_20201B254\TF_20201B254\Presentacion\obj\Debug\Presentacion.pdb

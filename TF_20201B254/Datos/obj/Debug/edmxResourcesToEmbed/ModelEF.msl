@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ModelEFStoreContainer" CdmEntityContainer="BDEFEntities">
+    <EntitySetMapping Name="Boleta">
+      <EntityTypeMapping TypeName="ModelEF.Boleta">
+        <MappingFragment StoreEntitySet="Boleta">
+          <ScalarProperty Name="id_boleta" ColumnName="id_boleta" />
+          <ScalarProperty Name="numero_boleta" ColumnName="numero_boleta" />
+          <ScalarProperty Name="fecha" ColumnName="fecha" />
+          <ScalarProperty Name="Clientes_id_cliente" ColumnName="Clientes_id_cliente" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Clientes">
+      <EntityTypeMapping TypeName="ModelEF.Clientes">
+        <MappingFragment StoreEntitySet="Clientes">
+          <ScalarProperty Name="id_cliente" ColumnName="id_cliente" />
+          <ScalarProperty Name="dni_cliente" ColumnName="dni_cliente" />
+          <ScalarProperty Name="nombre_cliente" ColumnName="nombre_cliente" />
+          <ScalarProperty Name="telefono" ColumnName="telefono" />
+          <ScalarProperty Name="direccion" ColumnName="direccion" />
+          <ScalarProperty Name="Empleados_id_empleados" ColumnName="Empleados_id_empleados" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DetallesxBoleta">
+      <EntityTypeMapping TypeName="ModelEF.DetallesxBoleta">
+        <MappingFragment StoreEntitySet="DetallesxBoleta">
+          <ScalarProperty Name="Boleta_id_boleta" ColumnName="Boleta_id_boleta" />
+          <ScalarProperty Name="Productos_id_producto" ColumnName="Productos_id_producto" />
+          <ScalarProperty Name="cantidad_producto_boleta" ColumnName="cantidad_producto_boleta" />
+          <ScalarProperty Name="precio_unitario" ColumnName="precio_unitario" />
+          <ScalarProperty Name="importe_producto_boleta" ColumnName="importe_producto_boleta" />
+          <ScalarProperty Name="monto_total" ColumnName="monto_total" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DetallesxFactura">
+      <EntityTypeMapping TypeName="ModelEF.DetallesxFactura">
+        <MappingFragment StoreEntitySet="DetallesxFactura">
+          <ScalarProperty Name="Productos_id_producto" ColumnName="Productos_id_producto" />
+          <ScalarProperty Name="Factura_id_factura" ColumnName="Factura_id_factura" />
+          <ScalarProperty Name="cantidad_producto_factura" ColumnName="cantidad_producto_factura" />
+          <ScalarProperty Name="importe_producto_factura" ColumnName="importe_producto_factura" />
+          <ScalarProperty Name="precio_unitario" ColumnName="precio_unitario" />
+          <ScalarProperty Name="monto_total" ColumnName="monto_total" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Empleados">
+      <EntityTypeMapping TypeName="ModelEF.Empleados">
+        <MappingFragment StoreEntitySet="Empleados">
+          <ScalarProperty Name="id_empleados" ColumnName="id_empleados" />
+          <ScalarProperty Name="nombre_empleado" ColumnName="nombre_empleado" />
+          <ScalarProperty Name="dni_empleado" ColumnName="dni_empleado" />
+          <ScalarProperty Name="cargo" ColumnName="cargo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Factura">
+      <EntityTypeMapping TypeName="ModelEF.Factura">
+        <MappingFragment StoreEntitySet="Factura">
+          <ScalarProperty Name="id_factura" ColumnName="id_factura" />
+          <ScalarProperty Name="numero_factura" ColumnName="numero_factura" />
+          <ScalarProperty Name="fecha" ColumnName="fecha" />
+          <ScalarProperty Name="Proveedores_id_proveedor" ColumnName="Proveedores_id_proveedor" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Productos">
+      <EntityTypeMapping TypeName="ModelEF.Productos">
+        <MappingFragment StoreEntitySet="Productos">
+          <ScalarProperty Name="id_producto" ColumnName="id_producto" />
+          <ScalarProperty Name="codigo_producto" ColumnName="codigo_producto" />
+          <ScalarProperty Name="nombre_producto" ColumnName="nombre_producto" />
+          <ScalarProperty Name="precio" ColumnName="precio" />
+          <ScalarProperty Name="Proveedores_id_proveedor" ColumnName="Proveedores_id_proveedor" />
+          <ScalarProperty Name="Empleados_id_empleados" ColumnName="Empleados_id_empleados" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Proveedores">
+      <EntityTypeMapping TypeName="ModelEF.Proveedores">
+        <MappingFragment StoreEntitySet="Proveedores">
+          <ScalarProperty Name="id_proveedor" ColumnName="id_proveedor" />
+          <ScalarProperty Name="nombre_proveedor" ColumnName="nombre_proveedor" />
+          <ScalarProperty Name="productos_vender" ColumnName="productos_vender" />
+          <ScalarProperty Name="direccion_proveedor" ColumnName="direccion_proveedor" />
+          <ScalarProperty Name="telefono_proveedor" ColumnName="telefono_proveedor" />
+          <ScalarProperty Name="ruc_proveedor" ColumnName="ruc_proveedor" />
+          <ScalarProperty Name="Empleados_id_empleados" ColumnName="Empleados_id_empleados" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

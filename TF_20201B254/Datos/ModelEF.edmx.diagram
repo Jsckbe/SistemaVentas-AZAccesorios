@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="96c8deaacbf7472084c831dda2d55868" Name="Diagram1" ZoomLevel="85">
+        <EntityTypeShape EntityType="ModelEF.Boleta" Width="1.5" PointX="0.5" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelEF.Clientes" Width="1.5" PointX="0.625" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelEF.DetallesxBoleta" Width="1.5" PointX="2.625" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelEF.DetallesxFactura" Width="1.5" PointX="5" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelEF.Empleados" Width="1.5" PointX="5" PointY="10.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelEF.Factura" Width="1.5" PointX="8.25" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelEF.Productos" Width="1.5" PointX="5" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelEF.Proveedores" Width="1.5" PointX="8.25" PointY="6" IsExpanded="true" />
+        <AssociationConnector Association="ModelEF.Boleta_Clientes" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelEF.Detalles_Boleta_Boleta" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelEF.Clientes_Empleados" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelEF.Detalles_Boleta_Productos" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelEF.Detalle_Factura_Factura" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelEF.Detalle_Factura_Productos" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelEF.Productos_Empleados" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelEF.Proveedores_Empleados" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelEF.Factura_Proveedores" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelEF.Productos_Proveedores" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

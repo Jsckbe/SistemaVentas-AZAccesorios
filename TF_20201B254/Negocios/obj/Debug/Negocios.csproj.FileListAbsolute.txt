@@ -1,0 +1,36 @@
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_azaccesorios\Negocios\bin\Debug\Negocios.dll
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_azaccesorios\Negocios\bin\Debug\Negocios.pdb
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_azaccesorios\Negocios\bin\Debug\Datos.dll
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_azaccesorios\Negocios\bin\Debug\EntityFramework.dll
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_azaccesorios\Negocios\bin\Debug\Datos.pdb
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_azaccesorios\Negocios\bin\Debug\Datos.dll.config
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_azaccesorios\Negocios\bin\Debug\EntityFramework.xml
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_azaccesorios\Negocios\obj\Debug\Negocios.csproj.AssemblyReference.cache
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_azaccesorios\Negocios\obj\Debug\Negocios.csproj.CoreCompileInputs.cache
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_azaccesorios\Negocios\obj\Debug\Negocios.csproj.CopyComplete
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_azaccesorios\Negocios\obj\Debug\Negocios.dll
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_azaccesorios\Negocios\obj\Debug\Negocios.pdb
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_202114246\Negocios\bin\Debug\Negocios.dll
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_202114246\Negocios\bin\Debug\Negocios.pdb
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_202114246\Negocios\bin\Debug\Datos.dll
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_202114246\Negocios\bin\Debug\EntityFramework.dll
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_202114246\Negocios\bin\Debug\Datos.pdb
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_202114246\Negocios\bin\Debug\Datos.dll.config
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_202114246\Negocios\bin\Debug\EntityFramework.xml
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_202114246\Negocios\obj\Debug\Negocios.csproj.AssemblyReference.cache
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_202114246\Negocios\obj\Debug\Negocios.csproj.CoreCompileInputs.cache
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_202114246\Negocios\obj\Debug\Negocios.csproj.CopyComplete
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_202114246\Negocios\obj\Debug\Negocios.dll
+D:\Visual proyectos\Ejercicios de ayuda para fundamentos\TF_202114246\Negocios\obj\Debug\Negocios.pdb
+D:\Escritorio\CICLOS\6TO CICLO\CURSOS\FundaDeSistemas\TF_20201B254\TF_20201B254\Negocios\bin\Debug\Negocios.dll
+D:\Escritorio\CICLOS\6TO CICLO\CURSOS\FundaDeSistemas\TF_20201B254\TF_20201B254\Negocios\bin\Debug\Negocios.pdb
+D:\Escritorio\CICLOS\6TO CICLO\CURSOS\FundaDeSistemas\TF_20201B254\TF_20201B254\Negocios\bin\Debug\Datos.dll
+D:\Escritorio\CICLOS\6TO CICLO\CURSOS\FundaDeSistemas\TF_20201B254\TF_20201B254\Negocios\bin\Debug\EntityFramework.dll
+D:\Escritorio\CICLOS\6TO CICLO\CURSOS\FundaDeSistemas\TF_20201B254\TF_20201B254\Negocios\bin\Debug\Datos.pdb
+D:\Escritorio\CICLOS\6TO CICLO\CURSOS\FundaDeSistemas\TF_20201B254\TF_20201B254\Negocios\bin\Debug\Datos.dll.config
+D:\Escritorio\CICLOS\6TO CICLO\CURSOS\FundaDeSistemas\TF_20201B254\TF_20201B254\Negocios\bin\Debug\EntityFramework.xml
+D:\Escritorio\CICLOS\6TO CICLO\CURSOS\FundaDeSistemas\TF_20201B254\TF_20201B254\Negocios\obj\Debug\Negocios.csproj.AssemblyReference.cache
+D:\Escritorio\CICLOS\6TO CICLO\CURSOS\FundaDeSistemas\TF_20201B254\TF_20201B254\Negocios\obj\Debug\Negocios.csproj.CoreCompileInputs.cache
+D:\Escritorio\CICLOS\6TO CICLO\CURSOS\FundaDeSistemas\TF_20201B254\TF_20201B254\Negocios\obj\Debug\Negocios.csproj.CopyComplete
+D:\Escritorio\CICLOS\6TO CICLO\CURSOS\FundaDeSistemas\TF_20201B254\TF_20201B254\Negocios\obj\Debug\Negocios.dll
+D:\Escritorio\CICLOS\6TO CICLO\CURSOS\FundaDeSistemas\TF_20201B254\TF_20201B254\Negocios\obj\Debug\Negocios.pdb
